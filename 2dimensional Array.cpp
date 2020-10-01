@@ -25,6 +25,19 @@ for(int r=0;r<size;r++){
 	cout<<"Sum of  D "<<sum<<endl;	
 }
 	
+void lowerTriangle{
+for(r=0;r<size;++r)
+	{
+		for(c=0;c<size;++c)
+		{
+			if(c<r)
+				cout<<a[r][c]<<" ";
+			else
+				cout<<" ";
+		}
+		cout<<"\n";
+	}
+}
 	void upperTriangle(){
 		
 
